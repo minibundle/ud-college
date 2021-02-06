@@ -1,0 +1,8 @@
+{
+  "name": "ud-college",
+  "version": "0.0.0",
+  "repository": "git@github.com:minilumine/ud-college.git",
+  "author": "Wone <w1y45hjcq3@criptext.com>",
+  "license": "MIT",
+  "private": true
+}

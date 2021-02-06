@@ -4,5 +4,18 @@
   "repository": "git@github.com:minilumine/ud-college.git",
   "author": "Wone <w1y45hjcq3@criptext.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "lint": "eslint --fix"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.12.13",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-jest": "^24.1.3",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.5.0",
+    "prettier": "^2.2.1"
+  }
 }

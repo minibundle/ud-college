@@ -17,7 +17,7 @@ const isProd = !isDev
 module.exports = {
   mode: process.env.NODE_ENV,
   devtool: isDev ? 'cheap-module-source-map' : false,
-  entry: path.resolve(__dirname, 'src/app.ts'),
+  entry: path.resolve(__dirname, 'src/app.js'),
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
@@ -25,8 +25,7 @@ module.exports = {
     extensions: ['.js', '.ts', '.vue'],
     alias: {
       '@': path.resolve(__dirname, 'src'),
-      // vue$: 'vue/dist/vue.esm.js',
-      vue$: 'vue/dist/vue.esm-bundler.js',
+      vue$: 'vue/dist/vue.esm.js',
     },
   },
   devServer: {
